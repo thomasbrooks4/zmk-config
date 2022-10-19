@@ -64,7 +64,7 @@
                 
        		default_layer {
 		bindings = <
-		&kp Q &kp W &kp F &kp P &kp B 						&kp J &kp L  &kp U    &kp Y   &kp
+		&kp Q &kp W &kp F &kp P &kp B 						&kp J &kp L  &kp U    &kp Y   &kp SEMI
 		&kp A &kp R &kp S &kp T &kp G 			        	&kp M &kp N &kp E &kp I &kp O
 		&kp Z &kp X &kp C &kp D &kp V				        &kp K &kp H  &kp CMMA &kp DOT &mt LSFT RET
           				&mo 1 &kp LSFT  				&kp SPC &mo 2
@@ -93,7 +93,7 @@
 		bindings = <
 		&kp NUM_1  &kp NUM_2    &kp NUM_3    &kp NUM_4    &kp NUM_5 			&trans &trans   &trans   &trans  &trans
 		&kp F1 &kp F2 &kp F3 &kp F4 &kp F5  						&trans &kp PG_UP  &kp K_VOL_UP &kp K_MUTE &trans 
-		&bt BT_CLR  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 3 &bt BT_SEL 4   				&trans &kp PG_DN  &kp K_VOL_DN  &trans &trans
+		&bt BT_CLR  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3   				&trans &kp PG_DN  &kp K_VOL_DN  &trans &trans
 					 &trans &trans  					&trans &trans 
 		>;
 		};	
